@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+      <main>
+   <div class="overlay">
+      <div class="modal">
+        <label>Marka</label>
+        <input type="text" id="marka">
+        <p id="error1"></p>
+        <label>Cena</label>
+        <input type="text" id="cena">
+        <p id="error2"></p>
+        <label>Model</label>
+        <input type="text" id="model">
+        <p id="error3"></p>
+        <label>Godiste</label>
+        <input type="text" id="godiste">
+        <p id="error4"></p>
+          <button id="dodaj">Postavi Oglas</button>
+          <button class="close">Zatvori</button>
+      </div>
+    </div>
+      <header>
+        <h1>Auto Oglas</h1>
+       <button id="dugme">Dodaj</button>
+       <button id="ispisi">Ispisi</button>
+       <button onclick="Prebroj(0)">Prebroj</button>
+       <input type="text" id="pretraga">
+       <button id="pretrazi">Pretrazi</button>
+      </header>
+      <div class="slider">
+      </div>
+      <p id="broj">Broj Oglasa:</p>
+      <p id="promena">Automobili:</p>
+      <div class="container">
+      <div class="cards-container">
+        <div class="card">
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
